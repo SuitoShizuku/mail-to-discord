@@ -58,7 +58,7 @@ export default {
       ],
     };
 
-    const response = await fetch("https://discord.com/api/webhooks/1571403680500949032/f0jwmQDwp33N0wDKDbZDD8mOFlnACieqD-CpsH1zOC370rxeCB2Pvsyg-q3zTI5UiiWB", {
+    const response = await fetch("<YOUR WEBHOOK URL>", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
